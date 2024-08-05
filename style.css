@@ -1,0 +1,30 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(113, 243, 134, 0.651);
+}
+
+.login-container{
+    background-color: rgb(135, 233, 165);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: 300px;
+    text-align: center;
+}
+
+form .form-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+form label{
+    
+}
