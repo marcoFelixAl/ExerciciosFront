@@ -37,3 +37,21 @@ form input{
     border-radius: 4px;
 }
 
+form input:focus{
+    border-color: blue;
+}
+
+form input:invalid:focus{
+    border-color:red;
+}
+
+form input:invalid:focus + .error-message{
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.error-message{
+    display: none;
+}
